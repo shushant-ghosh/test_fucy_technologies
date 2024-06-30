@@ -23,9 +23,36 @@ const useStyles = makeStyles((theme) => ({
 let properties = ["confidentiality", "integrity", "authenticity", "authorization", "non-repudiation", "availability"]
 
 const initialNodes = [
-  { id: '1', position: { x: 0, y: 0 }, data: { label: '1' }, properties },
-  { id: '2', position: { x: 0, y: 100 }, data: { label: '2' }, properties },
-  { id: '3', position: { x: 0, y: 200 }, data: { label: '3' }, properties },
+  {
+    "id": "1",
+    "position": {
+      "x": 20,
+      "y": 10
+    },
+    "data": {
+      "label": "Memory"
+    },
+    "properties": [
+      "confidentiality",
+      "integrity"
+    ],
+    "width": 150,
+    "height": 37
+  },
+  {
+    "id": "2",
+    "position": {
+      "x": 40,
+      "y": 110
+    },
+    "data": {
+      "label": "Microcontroller"
+    },
+    "properties": [
+      "authenticity",
+      "authorization"
+    ]
+  }
 ];
 const initialEdges = [{ id: 'e1-2', source: '1', target: '2' }];
 
@@ -40,7 +67,7 @@ function App() {
           <Grid item xs={12} >
             <Navbar />
           </Grid>
-          <Grid container spacing={0} style={{minHeight:"79vh"}}>
+          <Grid container spacing={0} style={{ minHeight: "79vh" }}>
             <Grid item xs={2} >
               <Sidebar />
             </Grid>

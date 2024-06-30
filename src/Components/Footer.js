@@ -66,7 +66,7 @@ function Footer() {
                             {item.data.label}
                         </Grid>
                         <Grid item xs="6" className={key % 2 === 0 ? classes.flexEndGrey : classes.flexEndWhite}>
-                            {item.properties.map((data, index) => item.properties.length - 1 == index ? `${data}` : `${data}, `)}
+                            {item.properties.map((data, index) => item.properties.length - 1 == index ? `${data[0].toUpperCase()}${data.slice(1,)}` : `${data[0].toUpperCase()}${data.slice(1,)}, `)}
                         </Grid>
                     </Grid>
                 )
