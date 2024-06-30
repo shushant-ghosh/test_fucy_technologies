@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test_fucy_technologies/static/css/main.616ba065.css",
+    "main.js": "/test_fucy_technologies/static/js/main.81fef383.js",
+    "static/js/453.d7fa678e.chunk.js": "/test_fucy_technologies/static/js/453.d7fa678e.chunk.js",
+    "index.html": "/test_fucy_technologies/index.html",
+    "main.616ba065.css.map": "/test_fucy_technologies/static/css/main.616ba065.css.map",
+    "main.81fef383.js.map": "/test_fucy_technologies/static/js/main.81fef383.js.map",
+    "453.d7fa678e.chunk.js.map": "/test_fucy_technologies/static/js/453.d7fa678e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.616ba065.css",
+    "static/js/main.81fef383.js"
+  ]
+}
